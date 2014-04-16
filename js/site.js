@@ -4,7 +4,7 @@ $(document).ready(function() {
     $(window).scroll(function() {
         var windowpos = $(window).scrollTop();
         //$("#header_left").html("Distance from top:" + pos.top + "<br />Scroll position: " + windowpos);
-        if (windowpos >= 161) {
+        if (windowpos >= 20) {
             s.addClass("minimal");
         } else {
             s.removeClass("minimal"); 

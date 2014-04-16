@@ -5,15 +5,15 @@ date:   2014-04-14 19:23:22
 categories: design development
 ---
 
-Recently I came across a video of Nicole Sullivan and Colin O'Bryne discussing there development process on a redesign project. I have yet to watch the video in it's entirity although the topic triggered made me think myself about how I can extend my existing use of styleguides in both design and development. 
+Recently I came across a video of [Nicole Sullivan and Colin O'Bryne discussing there development process](http://www.stubbornella.org/content/2014/04/09/style-guide-driven-development/) on a redesign project. I have yet to watch the video in it's entirity although the topic triggered thoughts on how I can extend my existing use of styleguides in both design and development. 
 
-### What is the purpose of the page?
+## What is the purpose of the page?
 
 Generally a page is used to solve a problem or complete a task in an application. Most of the time a page will have a primary action user is supposed to complete.
 
 By defining a solution to the problem the page is trying to solve, you are able to clearly identify which tools (modules) are required to assist the user in completing the action.
 
-### Choosing the right tools for the job
+## Choosing the right tools for the job
 
 Once you have a clear vision for the page you are trying to assemble, you should be able to start listing the tools needed to get the job done. These tools can be referred to as modules. For example, if your page was displaying a list of results from a search, some modules you might need are a search box (text input and submit button) to search again, a list to display results, a toggling navigation bar to change the way the list is displayed, and possibly a pagination navigational list.
 
@@ -25,7 +25,7 @@ Add all the required modules to the page and being arranging them to create a la
 
 ### If not, then begin documenting their functionality
 
-When documenting our modules, it is always a good idea to start by giving them a name. This is a great way to communicate clearly between colleagues from all levels of technical backgrounds. It also keeps the problem at a functional level and can stay abstracted from the visual design that will ultimately be attached to it.
+When documenting our modules, it is always a good idea to start by giving them a name. This is a great way to speak clearly of each module between colleagues ranging from all levels of technical backgrounds. It also keeps the problem at a functional level and can stay abstracted from the visual design which will eventually be applie.
 
 Carrying on with our previous example of showing a search results page. We have identified the page requires a module to toggle between different ways of displaying the results, we will call this a _Switcher_.
 
@@ -40,9 +40,7 @@ By using a bullet list it makes it easy to refer back to the styleguide (documen
 
 It is also important to make sure you can abstract the solution the module is solving, you will notice I made sure not to mention anything about the results in the _Switcher_ definition. The _Switcher_ should be able to switch between anything, not just results. That's it's job! This can be hard to do but is super important to maintain a high level of reusability.
 
-Any depend
-
-### Apply visual designs
+## Apply visual designs
 
 Once a modules functionality has been documented. A designer can now start doing their thing.
 
@@ -56,7 +54,7 @@ When there is already existing styles applied for smaller base elements such as 
 
 Sometimes this is a simple as adding your most popular HTML tags to a page and applying styles at the lowest element level.
 
-### Build module components (HTML, CSS & JS)
+## Build module components (HTML, CSS & JS)
 
 **Note: You may of merged the previous step into this one if you are like myself and enjoy [designing in the browser](https://medium.com/design-ux/3ccb1dfad980).**
 
@@ -64,7 +62,7 @@ We can now begin to build our modules. Just as we applied our visual design in i
 
 Remember, once again, reusability is our main goal here. So take advantage of some well structured CSS to build up your modules from smaller pieces.
 
-### Add to your page and apply layout styles
+## Add to your page and apply layout styles
 
 Once you have all your required modules, you can now begin building your pages. Page layout can be designed inside the browser or more traditionally in a program such as Sketch or Adobe Photoshop. The styles used to organise modules on a page, create grids and other structural aspects of the design should be applied seperately to the module styles.
 
